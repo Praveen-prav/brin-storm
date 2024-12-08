@@ -1,0 +1,32 @@
+.container-2{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.incompleteCard, .completedCard{
+    background-color: rgba(255, 255, 255, 0.568);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+hr{
+    height: 1.5px;
+    background-color: white;
+    border: none;
+}
+
+.quizCount{
+    display: flex;
+    justify-content: center;
+}

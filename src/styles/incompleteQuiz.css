@@ -1,0 +1,17 @@
+.incomplete-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0 10%;
+    gap: 20px;
+}
+
+.title-cards{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
